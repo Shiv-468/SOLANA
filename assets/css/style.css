@@ -6,3 +6,22 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
+.letter_sapacing_1px{
+    letter-spacing: 1px;
+}
+.max_width_1140px{
+    max-width: 1140px;
+}
+
+
+.padding_top_125{
+    padding-top: 125px;
+}
+.padding_bottom_125{
+    padding-bottom: 125px;
+}
+
+
+.growth_links{
+    
+}
