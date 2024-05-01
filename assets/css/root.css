@@ -31,9 +31,36 @@
     --line-height-7xl: 75.6px;
     --line-height-8xl: 132px;
     /* background-colors */
-    --bg-lightblack:#111111;
+    --bg-lightblack: #111111;
+
+    /* linear-gradient */
+    --header-gradient: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+    --nav-gradient: rgba(0, 0, 0, 0.6);
+    --btn1-gradient: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+
+    /* text-color */
+    --dropdown-text-color: #848895;
+    --blue: #618ADC;
 }
-.bg_lightblack{
+
+.text_blue{
+    color: var(--blue);
+}
+
+.dropdown_color {
+    color: var(--dropdown-text-color);
+}
+
+
+.header_gradient {
+    background: var(--header-gradient);
+}
+
+.nav_gradient {
+    background: var(--nav-gradient);
+}
+
+.bg_lightblack {
     background: var(--bg-lightblack);
 }
 
