@@ -16,7 +16,7 @@
     --font-size-9xl: 42px;
     --font-size-10xl: 68px;
     --font-size-11xl: 70px;
-    --font-size-12xl: 110px;
+    --font-size-12xl: 101px;
 
     /* line-height*/
     --line-height-sm: 15.36px;
@@ -41,12 +41,16 @@
     /* text-color */
     --dropdown-text-color: #848895;
     --blue: #618ADC;
+    --gray: #C4C4C4;
+
 }
 
-.text_blue{
+.text_blue {
     color: var(--blue);
 }
-
+.text_gray{
+    color: var(--gray);
+}
 .dropdown_color {
     color: var(--dropdown-text-color);
 }
